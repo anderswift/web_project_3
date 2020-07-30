@@ -1,3 +1,7 @@
+@import url(../content-container/content-container.css);
+
 @import url(../link/link.css);
 
 @import url(../list/list.css);
+
+@import url(../figure/figure.css);
