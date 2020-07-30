@@ -89,5 +89,7 @@ Usage:
 	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	color: #fff;
-	background: #2a2c2f; 
+	background: #2a2c2f;
+  overflow-x: hidden;
+  padding: 0 16px;
 }
