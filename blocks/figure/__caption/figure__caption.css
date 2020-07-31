@@ -6,3 +6,22 @@
 	letter-spacing: 0.15em;
 	margin: 8px 16px 0 16px;
 }
+
+
+
+@media screen and (min-width: 768px) {
+
+	.figure__caption { 
+		margin: 8px 24px 0 24px;
+	}
+
+}   
+
+
+@media screen and (min-width: 984px) {
+
+	.figure__caption { 
+		margin: 8px 0 0 0;
+	}
+
+}         
