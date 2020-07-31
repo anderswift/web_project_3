@@ -1,0 +1,9 @@
+@import url(./__title/place__title.css);
+@import url(./__website/place__website.css);
+@import url(./__image/place__image.css);
+@import url(./__text-content/place__text-content.css);
+@import url(./__paragraph/place__paragraph.css);
+
+.place {
+	margin-bottom: 48px;
+}

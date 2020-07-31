@@ -3,4 +3,6 @@
 
 .content-container {
 	padding: 0 16px 64px 16px;
+	margin: 0px auto;
+	max-width: 984px;
 }

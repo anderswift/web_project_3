@@ -1,0 +1,6 @@
+.place__image {
+	display: block;
+	width: calc(100% + 32px);
+	max-width: calc(100% + 32px);
+	margin: 32px -16px;
+}
