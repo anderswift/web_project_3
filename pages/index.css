@@ -14,15 +14,18 @@
 
 @import url(../blocks/photo-grid/photo-grid.css);
 
+@import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
+
+@import url(../blocks/cover/cover.css);
 
 @import url(../blocks/footer/footer.css);
 
 
 /* TEMP STYLES */
 
-.page { overflow-x: hidden; }
+.paage { overflow-x: hidden; }
 
 .test {
-  background: rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.5);
 }

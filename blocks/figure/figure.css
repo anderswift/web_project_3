@@ -1,5 +1,6 @@
 @import url(./__caption/figure__caption.css);
 
 .figure {
-	margin: 0 -16px 0 -16px; 
+	margin: 0 -16px 0 -16px;
+	max-width: calc(100% + 32px);
 }
