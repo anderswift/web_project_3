@@ -8,7 +8,8 @@
 @media screen and (min-width: 768px) {
 	
 	.place__website {
-		display: block;
+		display: flex;
+		align-items: flex-end;
 		position: relative;
 		padding-top: 24px;
 	}
@@ -21,7 +22,8 @@
 		line-height: 1;
 		text-decoration: none;
 		position: absolute;
-		top: 0px;
+		bottom: 34px;
+		letter-spacing: 0.2em;
 		color: #aaa; 
 	}
 	

@@ -10,7 +10,11 @@
 	.place__title {
 		font-size: 42px;
 		line-height: 46px;
-		margin: 0; 
+		margin: 0;
+		display: flex;
+		align-items: flex-end;
+		position: relative; /* small adjustment to better align with website text, as in mockup */
+		top: 6px;
 	}
 	
 }
@@ -20,6 +24,7 @@
 	.place__title {
 		font-size: 72px;
 		line-height: 76px;
+		top: 8px;
 	}
 	
 }
