@@ -1,6 +1,7 @@
 .link {
   color:#fff;
-  transition: opacity 0.35s ease-in-out;
+	text-decoration: none;
+  transition: opacity .3s ease-in-out;
 }
 
 .link:hover, .link:focus {
