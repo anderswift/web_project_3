@@ -18,3 +18,23 @@
 .cover__link:hover .cover__caption, .cover__link:focus .cover__caption {
 	background: rgba(42, 44, 47, .8);
 }
+
+@media screen and (min-width: 768px) {
+	
+	.cover__caption {
+		left: -24px;
+		right: -24px;
+		padding: 0 24px;
+	}
+	
+}
+
+@media screen and (min-width: 984px) {
+	
+	.cover__caption {
+		left: 0px;
+		right: 0px;
+		padding: 0;
+	}
+	
+}
