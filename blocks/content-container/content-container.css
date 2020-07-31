@@ -15,7 +15,7 @@
 
 }
 
-@media screen and (min-width: 984px) {
+@media screen and (min-width: 984px) { /* breakpoint chosen based on image dimensions for lead image file */
 
 	.content-container {
 		padding: 0 48px 92px 48px;

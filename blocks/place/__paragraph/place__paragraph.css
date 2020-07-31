@@ -7,3 +7,12 @@
 .place__paragraph:last-child {
 	margin-bottom: 0;
 }
+
+@media screen and (min-width: 984px) {
+	
+	.place__paragraph {
+		font-size: 18px;
+		line-height: 29px;
+	}
+	
+}

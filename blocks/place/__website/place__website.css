@@ -1,3 +1,28 @@
 .place__website {
 	display: none;
+	text-decoration: underline;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+@media screen and (min-width: 768px) {
+	
+	.place__website {
+		display: block;
+		position: relative;
+		padding-top: 24px;
+	}
+	
+	.place__website:before {
+		content:'url';
+		text-transform: uppercase;
+		display: inline-block;
+		font-size: 12px;
+		line-height: 1;
+		text-decoration: none;
+		position: absolute;
+		top: 0px;
+		color: #aaa; 
+	}
+	
 }
