@@ -14,3 +14,12 @@
 	}
 	
 }
+
+@media screen and (min-width: 1216px) { /* breakpoint makes footer match cover image width, once cover image has side margins */
+
+	.footer {
+		padding: 0 0 24px 0;
+		max-width: 1184px;
+	}
+
+}
