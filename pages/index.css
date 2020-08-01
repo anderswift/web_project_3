@@ -20,11 +20,3 @@
 @import url(../blocks/cover/cover.css);
 
 @import url(../blocks/footer/footer.css);
-
-
-/* TEMP STYLES */
-
-
-.test {
-  background: rgba(255,255,255,0.5);
-}

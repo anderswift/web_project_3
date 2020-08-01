@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+	
+	.place__container {
+		display: grid;
+		grid-template-columns: 47% auto; /* using percentage makes for smoother transition closer to brief between breakpoints */
+		gap: 48px 28px;
+	}
+	
+}
+
+@media screen and (min-width: 984px) {
+	
+	.place__container {
+		gap: 48px 32px;
+	}
+	
+}
+
+@media screen and (min-width: 1280px) {
+	
+	.place__container {
+		gap: 48px 40px;
+	}
+	
+}

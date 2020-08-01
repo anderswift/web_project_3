@@ -10,6 +10,7 @@
     
     
     
+    
     <header class="header content-container">
       
       <svg class="logo logo_place_header" width="190" height="44" viewBox="0 0 190 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,6 +34,7 @@
     
     
     
+    
     <main>
       
       
@@ -53,8 +55,9 @@
       
       
       
+      
       <section class="intro content-container">
-        <article>
+        <article class="intro__article">
           
           <h2 class="intro__title">Know the country you live in a little better</h2>
           
@@ -66,11 +69,11 @@
             Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.
           </p>
           
-          <dl class="intro__list">
-            <dt class="intro__list-dt">Distance (miles)</dt><dd>3,644</dd>
-            <dt class="intro__list-dt">Travel time (days)</dt><dd>22</dd>
-            <dt class="intro__list-dt">Highest point (feet)</dt><dd>9,613</dd>
-            <dt class="intro__list-dt">Lowest point (feet)</dt><dd>-3</dd>
+          <dl class="intro__list dlist">
+            <dt class="dlist__term">Distance (miles)</dt><dd>3,644</dd>
+            <dt class="dlist__term">Travel time (days)</dt><dd>22</dd>
+            <dt class="dlist__term">Highest point (feet)</dt><dd>9,613</dd>
+            <dt class="dlist__term">Lowest point (feet)</dt><dd>-3</dd>
           </dl>
           
         </article>
@@ -79,8 +82,8 @@
       
       
       
-      <section class="content-container">
-        <ul class="photo-grid list">
+      <section class="photo-grid content-container">
+        <ul class="photo-grid__list list">
           <li><img class="photo-grid__item" src="./images/item1.png"></li>
           <li><img class="photo-grid__item" src="./images/item2.png"></li>
           <li><img class="photo-grid__item" src="./images/item3.png"></li>
@@ -99,13 +102,11 @@
       
       
       
-      
-      <section class="content-container">
-        
-        <ul class="places list">
+      <section class="places content-container">
+        <ul class="list">
           
-          <li>
-            <article class="place">
+          <li class="place">
+            <article class="place__container">
             
               <h3 class="place__title">Maine</h3>
               <a class="place__website link" href="#">global.llbean.com</a>
@@ -127,8 +128,8 @@
           </li>
           
           
-          <li>
-            <article class="place">
+          <li class="place">
+            <article class="place__container">
               
               <h3 class="place__title">New Hampshire</h3>
               <a class="place__website link" href="https://www.timberland.com/timberlandpro.html">timberland.com</a>
@@ -150,8 +151,8 @@
           </li>
           
           
-          <li>
-            <article class="place">
+          <li class="place">
+            <article class="place__container">
               
               <h3 class="place__title">New York</h3>
               <a class="place__website link" href="https://www.ge.com/about-us">ge.com</a>
@@ -170,8 +171,8 @@
           </li>
           
           
-          <li>
-            <article class="place">
+          <li class="place">
+            <article class="place__container">
               
               <h3 class="place__title">Erie, PA</h3>
               <a class="place__website link" href="https://www.fws.gov/refuge/erie">www.fws.gov</a>
@@ -193,8 +194,8 @@
           </li>
           
           
-          <li>
-            <article class="place">
+          <li class="place">
+            <article class="place__container">
               
               <h3 class="place__title">Ohio</h3>
               <a class="place__website link" href="https://cedarpoint.com.com">cedarpoint.com</a>
@@ -212,27 +213,30 @@
             </article>
           </li>
           
-          
         </ul> 
       </section>
+      
       
       
       
       <section class="cover content-container">
         <a class="cover__link" href="https://www.nps.gov/nr/travel/route66/maps66.html">
           <figure class="figure">
+            
             <img class="cover__image" src="./images/route66.png" alt="Photo of Route 66 highway.">
+            
             <figcaption class="cover__caption">
               <h3 class="cover__title">Historic Route 66</h3>
               <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
             </figcaption>
+            
           </figure>
         </a>
       </section>
-      
-    
-      
+  
+
     </main>
+    
     
     
     
@@ -249,6 +253,7 @@
       <p class="footer__copyright">© 2020 Ander Swift</p>
         
     </footer>
+    
     
 </body>
 </html>

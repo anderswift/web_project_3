@@ -1,0 +1,12 @@
+.intro__article {
+	max-width: 720px; /* Paragraphs of text becomes difficult too red with lines longer than this. */
+}
+
+
+@media screen and (min-width: 1024px) {
+	
+	.intro__article {
+		max-width: 690px;
+	}
+	
+}

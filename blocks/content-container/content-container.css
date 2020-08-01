@@ -1,5 +1,5 @@
-/* creating a mix class for content-container and applying to each block of content makes it easier to keep track
- * of adaptive styles for padding around and between sections keeping all media queries in a single file. */
+/* Used a mix class for content-container and applied to each block of content. This makes it easier and more efficient
+ * to keep track of responsive styles for padding around and between sections, keeping all rules in a single file. */
 
 .content-container {
 	padding: 0 16px 64px 16px;

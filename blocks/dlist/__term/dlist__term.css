@@ -1,0 +1,5 @@
+.dlist__term {
+	font-weight: 700;
+	float: left; /* couldn't figure out a way to do this with flex without adding extra markup */
+	margin-right: 0.25em; /* equivalent of one space, will scale with font-size vs. using pixels */
+}

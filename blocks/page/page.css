@@ -66,7 +66,7 @@
 	This led to a pretty ugly layout for 'places' section between 460px and 768px, so I added
 	this rule to correct that and stop page width from expanding until enough room for 2 columns in 'places'. */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	
 	.page {
 		max-width: 460px; 
