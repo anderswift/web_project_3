@@ -1,5 +1,6 @@
 # "From Portland to Portland" responsive website
 ## Project 3 of Yandex Practicum Web Development
+[View website online on Github Pages](https://anderswift.github.io/web_project_3/)
 
 ### Project Description:
 This is a project about traveling across the US, with a focus on a responsive layout that displays all the elements
