@@ -1,4 +1,4 @@
-.figure__caption {
+.lead__caption {
 	text-transform:uppercase;
 	font-size: 10px;
 	line-height: 14px;
@@ -11,7 +11,7 @@
 
 @media screen and (min-width: 768px) {
 
-	.figure__caption { 
+	.lead__caption { 
 		margin: 8px 24px 0 24px;
 	}
 
@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 984px) {
 
-	.figure__caption { 
+	.lead__caption { 
 		margin: 8px 0 0 0;
 	}
 

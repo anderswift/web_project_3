@@ -1,13 +1,11 @@
-@import url(./__caption/figure__caption.css);
-
-.figure {
+.lead__figure {
 	margin: 0 -16px 0 -16px;
 	max-width: calc(100% + 32px);
 }
 
 @media screen and (min-width: 768px) {
 
-	.figure {
+	.lead__figure {
 		margin: 0 -24px 0 -24px;
 		max-width: calc(100% + 48px);
 	}
@@ -16,7 +14,7 @@
 
 @media screen and (min-width: 984px) {
 
-	.figure {
+	.lead__figure {
 		margin: 0;
 		max-width: 100%;
 	}
