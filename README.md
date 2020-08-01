@@ -1,20 +1,15 @@
-# Project 3: From Portland to Portland
+# "From Portland to Portland" responsive website
+## Project 3 of Yandex Practicum Web Development
 
-### Overview
-* Intro
-* Figma
-* Images
+### Project Description:
+This is a project about traveling across the US, with a focus on a responsive layout that displays all the elements
+correctly on popular screen sizes. This website was built using HTML5 and CSS, as practice with using some modern web
+development techniques. It incorporates:
 
-**Intro**
+* BEM Methodology
+* Flexbox
+* CSS Grids
+* CSS transitions
+* Mobile-First Responsive Design
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
-
-**Figma**
-
-* [Link to the project on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+This site was created based on a [mockup designed in Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0).
