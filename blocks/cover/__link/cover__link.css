@@ -1,7 +1,36 @@
 .cover__link {
 	display: block;
-	position: relative; 
+	position: absolute; 
 	color: #fff;
 	text-decoration: none;
 	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+
+.cover__link:before {
+	content: "";
+	background: #2A2C2F;
+	opacity: .3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	transition: opacity .3s ease-in-out;
+}
+
+.cover__link:hover:before, .cover__link:focus:before {
+	opacity: .8;
 }

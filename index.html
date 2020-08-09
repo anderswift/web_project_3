@@ -211,17 +211,16 @@
       
       <section class="cover content-container">
         <a class="cover__link" href="https://www.nps.gov/nr/travel/route66/maps66.html" target="_blank">
-          <figure class="figure">
-            
-            <img class="cover__image" src="./images/route66.png" alt="Photo of Route 66 highway.">
-            
-            <figcaption class="cover__caption">
-              <h2 class="cover__title">Historic Route 66</h2>
-              <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
-            </figcaption>
-            
-          </figure>
+            <h2 class="cover__title">Historic Route 66</h2>
+            <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
         </a>
+				
+				<!-- I was advised it is better to remove this image and use a background image, but I could not figure out for the life of me how
+				to get the relative scaling (width and height ratio of .cover section stays consistent at different screen sizes) without the img present.
+				I could only think of a way to do this with complicated relative padding and an extra div between .cover section and .cover__link. To me,
+				it seemed better to avoid the extra markup of a meaningless div and use the img tag. Any thoughts on how to do this better? -->
+				<img class="cover__image" src="./images/route66.png" alt="Photo of Route 66 highway.">
+				
       </section>
   
 

@@ -2,7 +2,7 @@
 	font-size: 32px;
 	line-height: 35px;
 	font-weight: 900; 
-	margin: 0 0 16px 0;
+	margin: 0 16px 16px 16px;
 	max-width: 656px;
 }
 
@@ -11,7 +11,7 @@
 	.cover__title {
 		font-size: 72px;
 		line-height: 76px;
-		margin: 0 0 32px 0; 
+		margin: 0 16px 32px 16px; 
 	}
 	
 }
