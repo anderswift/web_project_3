@@ -1,20 +1,3 @@
-/* Made some corrections, to follow process from this lesson about global styles:
- * https://practicum.yandex.com/learn/web/courses/c4289437-1e2f-4625-a3c1-91b2306b8317/sprints/2372/topics/e7012cb1-1f16-407e-8b49-a39828bf2b31/lessons/be1df755-5efa-4eb9-8c7b-2c5eea66740d/
- * I realize I had forgotten to include root class in index.html on body tag, but corrected is this okay to do?
- * Is it better to include these global styles individually in index.css, or is either approach okay? I like the idea
- * of organizing global styles separately under a root block, in case there are many, and to differentiate more easily what is
- * unique to only one section and what is mixed into other blocks.
- */
-
-@import url(../../vendor/fonts/fonts.css);
-
-@import url(../content-container/content-container.css);
-
-@import url(../link/link.css);
-@import url(../list/list.css);
-@import url(../dlist/dlist.css);
-
-
 .root {
 	min-width: 280px;
 	font-family: 'Inter', Helvetica, Arial, sans-serif;
@@ -26,16 +9,4 @@
 }
 
 
-/* Because 'place' images are only 460px wide, I didn't want to stretch them larger past that width.
-	This led to a pretty ugly layout for 'places' section between 460px and 768px, so I added
-	this rule to correct that and stop page width from expanding until enough room for 2 columns in 'places'. */
-
-@media screen and (max-width: 767px) {
-	
-	.root {
-		max-width: 460px; 
-		margin: 0 auto;
-	}
-	
-}
 

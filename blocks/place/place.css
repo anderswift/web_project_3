@@ -5,7 +5,8 @@
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
-	margin-bottom: 48px;
+	margin: 0 auto 48px auto;
+	max-width: 460px;
 }
 
 .place:last-child {
@@ -13,10 +14,18 @@
 }
 
 
+@media screen and (min-width: 600px) {
+	.place {
+		max-width: 100%;
+		padding: 0 16px;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	
 	.place {
 		margin-bottom: 72px;
+		padding: 0 24px;
 	}
 	
 }
@@ -25,6 +34,7 @@
 	
 	.place {
 		margin-bottom: 80px;
+		padding: 0 48px;
 	}
 	
 }

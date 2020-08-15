@@ -1,7 +1,9 @@
 .photo-grid__list {
 	display: grid;
-	grid-template-columns: repeat( auto-fill, minmax(284px, 1fr) );
+	grid-template-columns: repeat( auto-fill, minmax(235px, 1fr) ); 
 	gap: 12px;
+	max-width: 352px; 
+	margin: 0 auto;
 }
 
 @media screen and (min-width: 350px) { 
@@ -12,9 +14,17 @@
 	
 }
 
+@media screen and (min-width: 525px) {
+	.photo-grid__list {
+		max-width: 100%;
+	}
+}
+
+
 @media screen and (min-width: 769px) {
 	
 	.photo-grid__list {
+		grid-template-columns: repeat( auto-fill, minmax(231px, 1fr) );
 		gap: 14px;
 	}
 	

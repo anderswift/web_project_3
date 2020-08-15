@@ -1,6 +1,7 @@
 .cover__link {
-	display: block;
-	position: absolute; 
+	background: url(../../../images/route66.png) 50% 50%;
+	background-size: cover;
+	min-height: 320px;
 	color: #fff;
 	text-decoration: none;
 	margin: 0;
@@ -9,7 +10,6 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	position: absolute;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -18,7 +18,7 @@
 }
 
 
-.cover__link:before {
+.cover__link:after {
 	content: "";
 	background: #2A2C2F;
 	opacity: .3;
@@ -27,10 +27,48 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	z-index: -1;
+	z-index: 0;
 	transition: opacity .3s ease-in-out;
 }
 
-.cover__link:hover:before, .cover__link:focus:before {
+.cover__link:hover:after, .cover__link:focus:after {
 	opacity: .8;
 }
+
+
+@media screen and (min-width: 525px) { 
+
+	.cover__link {
+		min-height: 380px;
+	}
+
+}
+
+
+@media screen and (min-width: 768px) { 
+
+	.cover__link {
+		margin-bottom: 88px;
+		min-height: 480px;
+	}
+
+}
+
+@media screen and (min-width: 900px) { 
+
+	.cover__link {
+		min-height: 640px;
+	}
+
+}
+
+
+
+@media screen and (min-width: 1280px) { 
+
+	.cover__link {
+		min-height: 740px;
+	}
+
+}
+
